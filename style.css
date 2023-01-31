@@ -1,0 +1,16 @@
+
+
+*{
+/*Regla*/    box-sizing: border-box /*Propiedad*/;
+/*Recalcula de forma automatica padding y border*/
+/*Margen no se recalcula*/
+    padding: 0;
+    margin: 0%;
+}
+main{
+    width: 100%;
+    height: 500px; /**/
+    border: 10px solid pink;
+    padding: 20px 35px;/*dos valores para los border*/
+    /*Resetear los archivos de CSS para que no preocuparnos lo que trae el navegador*/
+}
